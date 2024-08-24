@@ -1,3 +1,5 @@
+
+
 # TyrePlex 🚗✨
 
 ## Overview
@@ -9,7 +11,7 @@
 - **Responsive Design**: Built with Bootstrap 5.3, ensuring compatibility across various devices and screen sizes. 📱💻
 - **Custom Styling**: Utilizes custom CSS for unique design elements and styling, including smooth animations. 🎨🌀
 - **Modern Typography**: Integrates the Poppins font from Google Fonts for a clean and contemporary look. 🅰️
-- **Iconography**: Includes Font Awesome for scalable and customizable icons with animation effects. ⚙️
+- **Iconography**: Includes Font Awesome for scalable and customizable icons. ⚙️
 
 ## Technologies Used
 
@@ -17,66 +19,13 @@
 - **CSS**: Custom styles and animations applied to enhance visual presentation and layout. 🖌️💫
 - **Bootstrap 5.3**: A powerful front-end framework used for responsive design and pre-designed components. 📐
 - **Google Fonts**: Poppins font for improved typography. ✨
-- **Font Awesome**: Provides animated icons for various UI elements. 🖼️
+- **Font Awesome**: Provides icons for various UI elements. 🖼️
 
 ## Animation Highlights
 
 - **Smooth Transitions**: CSS animations create smooth transitions between states and enhance user interactions. ⚡
 - **Hover Effects**: Custom hover effects applied to buttons and links for a more interactive experience. 🖱️
 - **Load Animations**: Subtle animations when loading content to improve user engagement. ⏳
-
-### Adding Animation to Emojis and Icons
-
-**For Emojis**: You can use CSS keyframes to animate emojis. Here's an example of a bouncing emoji:
-
-```css
-@keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
-    transform: translateY(0);
-  }
-  40% {
-    transform: translateY(-30px);
-  }
-  60% {
-    transform: translateY(-15px);
-  }
-}
-
-.animated-emoji {
-  display: inline-block;
-  animation: bounce 2s infinite;
-}
-```
-
-Use the `animated-emoji` class in your HTML:
-
-```html
-<span class="animated-emoji">🚗</span>
-```
-
-**For Font Awesome Icons**: Use CSS animations for icons. For example, to add a rotating effect:
-
-```css
-@keyframes rotate {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-.animated-icon {
-  display: inline-block;
-  animation: rotate 2s linear infinite;
-}
-```
-
-Use the `animated-icon` class with Font Awesome icons:
-
-```html
-<i class="fas fa-cogs animated-icon"></i>
-```
 
 ## Installation
 
@@ -132,4 +81,4 @@ For any inquiries or feedback, please reach out to:
 
 ---
 
-Feel free to adjust the animations and effects according to your design preferences!
+Feel free to adjust the details as needed and let me know if there are specific animations or effects you’d like to highlight further!
